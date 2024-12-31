@@ -1,6 +1,6 @@
 # BlueDucky Ver 2.1 (Android) 🦆
 
-Thanks to all the people at HackNexus. Make sure you come join us on telegram=https://t.me/+qBKeSHrLPPBhODA8
+. Make sure you come join us on telegram=https://t.me/+qBKeSHrLPPBhODA8
 NOTES: I will not be able to run this on a laptop or other device outside of a raspberry pi for testing. Due to this, any issues you have will need to be resolved amonsgt each other as I do not have the spare funds to buy an adapter. 
 <p align="center">
   <img src="./images/duckmenu.png">
@@ -10,20 +10,6 @@ NOTES: I will not be able to run this on a laptop or other device outside of a r
 
 🔓 Unauthenticated Peering Leading to Code Execution (Using HID Keyboard)
 
-[This is an implementation of the CVE discovered by marcnewlin](https://github.com/marcnewlin/hi_my_name_is_keyboard)
-
-<p align="center">
-  <img src="./images/BlueDucky.gif">
-</p>
-
-## Introduction 📢
-BlueDucky is a powerful tool for exploiting a vulnerability in Bluetooth devices. By running this script, you can:
-
-1. 📡 Load saved Bluetooth devices that are no longer visible but have Bluetooth still enabled.
-2. 📂 Automatically save any devices you scan.
-3. 💌 Send messages via ducky script format to interact with devices.
-
-I've successfully run this on a Raspberry Pi 4 using the default Bluetooth module. It works against various phones, with an interesting exception for a New Zealand brand, Vodafone.
 
 ## Installation and Usage 🛠️
 
@@ -96,20 +82,11 @@ pip3 install -r requirements.txt
 5. Executes using payload.txt file.
 6. Successful execution will result in automatic connection and script running.
 
-## Duckyscript 💻
-🚧 Work in Progress:
-- Suggest me ideas
 
-## Version 2.1 🐛
-- Updated UI
-- Improved User Experience
-- Bluetooth Debugger; Checks your bluetooth adapters, and installed dependancies before allowing access to the application, this is to prevent devices that are not supported.
-- Please Note: Numerous Changes have been made,please reference the commit history for specific changes.
+##  Checks your bluetooth adapters, and installed dependancies before allowing access to the application, this is to prevent devices that are not supported.
+
   
-## What's Planned for the Next Release?
-- Integrated DuckyScript Console for attacks that want to maintain persistance, after a payload has been ran
-- Suggest What Should be added next! Join https://discord.gg/HackNexus
-
+## What's Planned for the 
 #### 📝 Example payload.txt:
 ```bash
 REM Title of the payload
